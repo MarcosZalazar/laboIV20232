@@ -1,0 +1,18 @@
+<h1>Ejercicio 1 y 2</h1>
+
+<input [(ngModel)]="edadUno"  type="text" placeholder="Ingrese una edad">
+<input [(ngModel)]="edadDos"  type="text" placeholder="Ingrese otra edad">
+
+<p>
+   <label for="txtSuma">{{lblSuma}}</label>
+   <input type="text" id="txtSuma" [value]="suma" readonly>
+   <label for="txtPromedio">{{lblPromedio}}</label>
+   <input type="text" id="txtPromedio" [value]="promedio" readonly>
+</p>
+
+<hr>
+
+<button (click)="CalcularPromedioYSuma()">{{lblCalcular}}</button>
+<button (click)="LimpiarResultados()">{{lblLimpiar}}</button>
+
+<router-outlet></router-outlet>
