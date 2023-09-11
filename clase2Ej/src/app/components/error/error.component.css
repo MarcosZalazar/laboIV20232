@@ -1,0 +1,12 @@
+.backgroundIMG{
+	width:100%;
+	margin:auto;
+	max-width:900px;
+	min-height:10000px;
+	background:url(https://bashooka.com/wp-content/uploads/2012/06/404-error-page-template-1.jpg) no-repeat;
+}
+
+h1{
+    color: white;
+    text-align: left;
+}
